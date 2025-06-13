@@ -26,6 +26,11 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      
+      # 新增：全局安装 Hexo CLI
+      - name: Install Hexo CLI
+        run: npm install hexo-cli -g
+      
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
