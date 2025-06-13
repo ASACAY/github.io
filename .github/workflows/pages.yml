@@ -1,3 +1,5 @@
+chmod +x node_modules/.bin/hexo
+
 name: Pages
 
 on:
