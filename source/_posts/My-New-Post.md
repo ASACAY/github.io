@@ -81,6 +81,6 @@ func palyer_movement():
 
 {% gallery %}
 
-![image-20250615093503545](C:\Users\luhaoye\Yezzi_Godot\photos\window_setting.png)
+![]([window_setting.png (1204×747)](https://raw.githubusercontent.com/ASACAY/asacay.github.io/refs/heads/main/photos/window_setting.png)
 
 {% endgallery %}
