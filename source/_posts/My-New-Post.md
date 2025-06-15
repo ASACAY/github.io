@@ -1,7 +1,7 @@
 ---
-title: My New Post
+title: Godot开发指南_吸血鬼幸存者篇
 date: 2025-06-13 12:35:55
-tags:Godot开发指南_吸血鬼幸存者篇
+tags: notes
 ---
 
 # Godot开发指南
@@ -29,7 +29,7 @@ tags:Godot开发指南_吸血鬼幸存者篇
 
 1.在CharacterBody2D(Player)下选择创建脚本,选择Node模板
 
-```c#
+```GDS
 extends Node2D
 
 
@@ -55,7 +55,7 @@ func _physics_process(delta: float) -> void:
 
 2.创建人物的位置矢量
 
-```c#
+```GDS
 extends CharacterBody2D
 
 const MAX_SPEED=200
@@ -79,4 +79,8 @@ func palyer_movement():
 
 3.修改窗口的长宽高
 
-![image-20250615090433105](C:\Users\luhaoye\Desktop\image-20250615090433105.png)
+{% gallery %}
+
+![image-20250615093503545](C:\Users\luhaoye\Yezzi_Godot\photos\window_setting.png)
+
+{% endgallery %}
